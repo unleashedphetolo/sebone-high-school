@@ -250,3 +250,150 @@
   border-color: rgba(11, 59, 143, 0.35);
   box-shadow: 0 0 0 4px rgba(11, 59, 143, 0.12);
 }
+
+/* Hide left calendar on small devices */
+@media (max-width: 768px) {
+  .scal-left {
+    display: none;
+  }
+}
+
+/* =========================
+   Responsive ONLY (add to bottom of school-calendar.css)
+   ========================= */
+
+/* 1100px and down: stack columns + tighten spacing */
+@media (max-width: 1100px) {
+  .scal-page {
+    padding: 22px 0 50px;
+  }
+
+  .scal-hero {
+    padding: 18px;
+  }
+
+  .scal-title {
+    font-size: 28px;
+  }
+
+  .scal-grid {
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+
+  .scal-right-head {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+/* 900px and down: table becomes horizontally scrollable nicely */
+@media (max-width: 900px) {
+  .scal-hero {
+    border-radius: 16px;
+  }
+
+  .scal-actions {
+    width: 100%;
+  }
+
+  .scal-btn {
+    flex: 1;
+    justify-content: center;
+  }
+
+  .scal-table-wrap {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .scal-table {
+    min-width: 820px; /* ensures columns don't crush */
+  }
+}
+
+/* 768px and down: hide left calendar + smaller typography */
+@media (max-width: 768px) {
+  .scal-right {
+    display: none;
+  }
+
+  .scal-left {
+    display: none;
+  }
+
+  .scal-hero {
+    padding: 16px;
+    gap: 12px;
+  }
+
+  .scal-title {
+    font-size: 24px;
+  }
+
+  .scal-subtitle {
+    font-size: 14px;
+  }
+
+  .scal-h2 {
+    font-size: 22px;
+  }
+
+  .scal-card,
+  .scal-table-wrap {
+    border-radius: 16px;
+  }
+
+  .scal-table th,
+  .scal-table td {
+    padding: 12px 12px;
+    font-size: 13.5px;
+  }
+
+  .scal-pill {
+    font-size: 11.5px;
+    padding: 6px 9px;
+  }
+}
+
+/* 520px and down: buttons wrap cleanly, tighter paddings */
+@media (max-width: 520px) {
+  .scal-page {
+    padding: 18px 0 44px;
+  }
+
+  .scal-hero {
+    padding: 14px;
+    border-radius: 14px;
+  }
+
+  .scal-actions {
+    gap: 8px;
+  }
+
+  .scal-btn {
+    width: 100%;
+    padding: 10px 12px;
+    border-radius: 12px;
+  }
+
+  .scal-tag {
+    font-size: 11px;
+    padding: 6px 9px;
+  }
+
+  .scal-note {
+    font-size: 12.5px;
+  }
+}
+
+/* Optional: reduce motion on users who prefer it */
+@media (prefers-reduced-motion: reduce) {
+  .scal-btn {
+    transition: none;
+  }
+
+  .scal-btn:hover {
+    transform: none;
+  }
+}

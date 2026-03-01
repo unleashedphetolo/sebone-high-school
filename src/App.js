@@ -16,7 +16,7 @@ import AboutLanding from "./pages/About";
 import AdmissionsLanding from "./pages/Admissions";
 import SchoolLifeLanding from "./pages/SchoolLife";
 import DigitalLibrary from "./pages/DigitalLibrary";
-import Events from "./pages/Events";
+// import Events from "./pages/Events";
 import News from "./pages/News";
 import Gallery from "./pages/Gallery";
 import Staff from "./pages/Staff";
@@ -41,7 +41,7 @@ import TermPlan from "./pages/resources/TermPlan";
 import ExamSchedule from "./pages/resources/ExamSchedule";
 import CodeOfConduct from "./pages/resources/CodeOfConduct";
 import StationaryList from "./pages/resources/StationaryList";
-import SchoolCalendar from "./pages/resources/SchoolCalendar";
+import SchoolCalendar from "./pages/SchoolCalendar";
 
 // Admissions sub-pages
 import Apply from "./pages/admissions/Apply";
@@ -100,8 +100,6 @@ function App() {
           <Route path="/bulletin" element={<StudentDailyBulletin />} />
           <Route path="/attendance" element={<AttendancePolicy />} />
           <Route path="/calendar/events" element={<AllEvents />} />
-          <Route path="/schoolcalendar" element={<SchoolCalendar />} />
-
 
           {/* Admissions */}
           <Route path="/admissions" element={<AdmissionsLanding />} />
@@ -110,7 +108,8 @@ function App() {
 
           {/* Core */}
           <Route path="/digital-library" element={<DigitalLibrary />} />
-          <Route path="/events" element={<Events />} />
+          {/* <Route path="/events" element={<Events />} /> */}
+          <Route path="/schoolcalendar" element={<SchoolCalendar />} />
           <Route path="/news" element={<News />} />
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/robotics" element={<RoboticsClub />} />

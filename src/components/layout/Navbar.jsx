@@ -48,7 +48,7 @@ export default function Navbar() {
       ],
       news: [
         { to: "/news", label: "Newsletters" },
-        { to: "/events", label: "Events" },
+        { to: "/schoolcalendar", label: "School Calendar" },
       ],
       admissions: [
         { to: "/admissions/apply", label: "How to Apply" },

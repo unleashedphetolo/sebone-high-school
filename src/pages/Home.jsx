@@ -6,8 +6,8 @@ import AboutSection from "../components/home/AboutSection";
 import GalleryPreview from "../components/home/GalleryPreview";
 import PrincipalMessage from "../components/home/PrincipalMessage";
 import Admissions from "./Admissions";
-import EventsList from "../components/home/EventsList";
 import WallOfFame from "../components/home/WallOfFame";
+import SchoolCalendar from "./SchoolCalendar";
 
 export default function Home() {
   return (
@@ -20,7 +20,7 @@ export default function Home() {
       </div>
       <PrincipalMessage />
       <Admissions />
-      <EventsList />
+      <SchoolCalendar />
       <WallOfFame />
     </>
   );
