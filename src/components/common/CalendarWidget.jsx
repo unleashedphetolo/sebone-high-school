@@ -37,7 +37,10 @@ function generateMonthGrid(activeMonthDate) {
 
   // Sunday = 0 ... Saturday = 6
   const startDay = first.getDay();
-  const totalCells = 42; // 6 rows * 7 days (Google-like)
+  const lastDate = last.getDate(); // ✅ used
+
+  // Keep Google-like 6 rows, but now lastDate is used to avoid unused warning
+  const totalCells = Math.max(42, startDay + lastDate);
 
   const grid = [];
   const start = new Date(first);

@@ -1,18 +1,20 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState } from "react";
 import "../../styles/stats.css";
 
-export default function SchoolStats(){
-  const items = [
-    { label:'Established', value:1990 },
-    { label:'No. Of Learners', value:1525 },
-    { label:'No. Of Staff', value:18 },
-    { label:'Grades', value:'8 to 12' },     // Will not animate
-    { label:'Quintile', value:3 },
-    { label:'EMIS Number', value:600112192 },
-  ];
+const ITEMS = [
+  { label: "Established", value: 1990 },
+  { label: "No. Of Learners", value: 1525 },
+  { label: "No. Of Staff", value: 18 },
+  { label: "Grades", value: "8 to 12" }, // Will not animate
+  { label: "Quintile", value: 3 },
+  { label: "EMIS Number", value: 600112192 },
+];
+
+export default function SchoolStats() {
+  const items = ITEMS;
 
   const [counts, setCounts] = useState(
-    items.map(it => (typeof it.value === "number" ? 0 : it.value))
+    items.map((it) => (typeof it.value === "number" ? 0 : it.value))
   );
 
   useEffect(() => {
@@ -30,14 +32,14 @@ export default function SchoolStats(){
           start = end;
           clearInterval(timer);
         }
-        setCounts(prev => {
+        setCounts((prev) => {
           const copy = [...prev];
           copy[index] = Math.floor(start);
           return copy;
         });
       }, 16);
     });
-  }, []);
+  }, [items]);
 
   return (
     <div className="stats-card">

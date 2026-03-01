@@ -56,7 +56,7 @@ export default function Topbar() {
         <div className="right">
           <div className="social" aria-label="Social media links">
             <a
-              href="#"
+              href="/"
               aria-label="Facebook"
               className="social-btn"
               title="Facebook"
@@ -71,7 +71,7 @@ export default function Topbar() {
             </a>
 
             <a
-              href="#"
+              href="/"
               aria-label="Instagram"
               className="social-btn"
               title="Instagram"
@@ -89,7 +89,7 @@ export default function Topbar() {
             </a>
 
             <a
-              href="#"
+              href="/"
               aria-label="X / Twitter"
               className="social-btn"
               title="X"
@@ -104,7 +104,7 @@ export default function Topbar() {
             </a>
 
             <a
-              href="#"
+              href="/"
               aria-label="WhatsApp"
               className="social-btn"
               title="WhatsApp"
@@ -123,7 +123,7 @@ export default function Topbar() {
             </a>
 
             <a
-              href="#"
+              href="/"
               aria-label="LinkedIn"
               className="social-btn"
               title="LinkedIn"
@@ -138,7 +138,7 @@ export default function Topbar() {
             </a>
 
             <a
-              href="#"
+              href="/"
               aria-label="YouTube"
               className="social-btn"
               title="YouTube"
