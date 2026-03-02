@@ -52,6 +52,7 @@ import StudentDailyBulletin from "./pages/StudentDailyBulletin";
 import AttendancePolicy from "./pages/AttendancePolicy";
 import AllEvents from "./pages/AllEvents";
 import HowToApply from "./pages/admissions/HowToApply";
+import ScrollTopButton from "./components/common/ScrollTopButton";
 
 function App() {
   return (
@@ -127,6 +128,7 @@ function App() {
       </main>
 
       <Footer />
+      <ScrollTopButton />
     </Router>
   );
 }
