@@ -1,5 +1,5 @@
 import React, { useMemo, useState } from "react";
-import "../../styles/admissions.css";
+// import "../../styles/admissions.css";
 import "../../styles/admissions-form.css";
 import Button from "../../components/common/Button";
 

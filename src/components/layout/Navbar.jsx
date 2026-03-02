@@ -51,7 +51,7 @@ export default function Navbar() {
         { to: "/schoolcalendar", label: "School Calendar" },
       ],
       admissions: [
-        { to: "/admissions/apply", label: "How to Apply" },
+        { to: "/admissions/howtoapply", label: "How to Apply" },
         { to: "/admissions/requirements", label: "Entry Requirements" },
         { to: "/admissions/apply", label: "Apply Now" },
       ],

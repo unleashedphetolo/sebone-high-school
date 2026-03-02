@@ -51,6 +51,7 @@ import SGB from "./components/governance/SGB";
 import StudentDailyBulletin from "./pages/StudentDailyBulletin";
 import AttendancePolicy from "./pages/AttendancePolicy";
 import AllEvents from "./pages/AllEvents";
+import HowToApply from "./pages/admissions/HowToApply";
 
 function App() {
   return (
@@ -105,6 +106,7 @@ function App() {
           <Route path="/admissions" element={<AdmissionsLanding />} />
           <Route path="/admissions/apply" element={<Apply />} />
           <Route path="/admissions/requirements" element={<Requirements />} />
+          <Route path="/admissions/howtoapply" element={<HowToApply />} />
 
           {/* Core */}
           <Route path="/digital-library" element={<DigitalLibrary />} />
