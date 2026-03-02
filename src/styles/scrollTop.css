@@ -5,8 +5,8 @@
   right: 24px;
   bottom: 28px;
 
-  width: 46px;
-  height: 46px;
+  width: 56px;
+  height: 56px;
 
   border-radius: 50%;
   border: none;
@@ -14,8 +14,8 @@
   background: linear-gradient(135deg,#2a1b6b,#0b3b8f);
   color: #fff;
 
-  font-size: 22px;
-  font-weight: 900;
+  font-size: 32px;
+  font-weight: 1000;
 
   cursor: pointer;
 
@@ -50,8 +50,8 @@
   .scroll-top{
     right:16px;
     bottom:20px;
-    width:42px;
-    height:42px;
-    font-size:20px;
+    width:52px;
+    height:52px;
+    font-size:30px;
   }
 }
