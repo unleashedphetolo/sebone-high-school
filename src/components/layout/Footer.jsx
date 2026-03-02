@@ -5,13 +5,14 @@ import logoz from "../../assets/sebone.jpeg";
 
 const groups = [
   {
-    title: "Students",
+    title: "Learners",
     items: [
       { name: "Calendars", path: "/resources/calendar" },
       { name: "Term dates", path: "/resources/term-plan" },
       { name: "Student Daily Bulletin", path: "/bulletin" },
       { name: "Subject Choices", path: "/resources/subject-choices" },
       { name: "Past Matric Papers", path: "/digital-library" },
+      { name: "Matric Results", path: "https://www.education.gov.za/MatricResults/ExamResults.aspx", external: true },
     ],
   },
   {
@@ -80,9 +81,15 @@ export default function Footer() {
               <ul>
                 {group.items.map((item) => (
                   <li key={item.name}>
-                    <Link to={item.path} onClick={scrollTop}>
-                      {item.name}
-                    </Link>
+                    {item.external ? (
+                      <a href={item.path} target="_blank" rel="noopener noreferrer">
+                        {item.name}
+                      </a>
+                    ) : (
+                      <Link to={item.path} onClick={scrollTop}>
+                        {item.name}
+                      </Link>
+                    )}  
                   </li>
                 ))}
               </ul>
