@@ -201,3 +201,45 @@
     grid-template-columns: 1fr;
   }
 }
+
+/* Hero right image only */
+.wwa-hero-img{
+  width: 100%;
+  height: 100%;
+  min-height: 320px;
+  display: block;
+  object-fit: cover;
+  border-radius: 14px;
+}
+
+/* Make the right panel behave like an image frame */
+.wwa-hero-right{
+  overflow: hidden;        /* keeps rounded corners clean */
+}
+
+/* Responsive image height */
+@media (max-width: 1100px){
+  .wwa-hero-img{ min-height: 260px; }
+}
+@media (max-width: 700px){
+  .wwa-hero-img{ min-height: 220px; }
+}
+
+/* Left hero image */
+
+.wwa-left-img{
+  width:100%;
+  height:260px;
+  object-fit:cover;
+  border-radius:14px;
+  margin-bottom:14px;
+  border:1px solid rgba(0,0,0,0.08);
+  box-shadow:0 12px 24px rgba(0,0,0,0.08);
+}
+@media (max-width:700px){
+
+  .wwa-left-img{
+    height:180px;
+  }
+
+}
