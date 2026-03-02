@@ -14,7 +14,7 @@ export default function Admissions() {
           </p>
         </div>
         <div className="hero-cta">
-          <a className="btn primary apply-cta" href="#apply">
+          <a className="btn primary apply-cta" href="/admissions/apply">
             Start Application
           </a>
         </div>
@@ -56,7 +56,7 @@ export default function Admissions() {
             <a className="btn secondary" href="#download">
               Download Form
             </a>
-            <a className="btn primary" id="apply" href="#apply">
+            <a className="btn primary" id="apply" href="/admissions/apply">
               Start Application
             </a>
           </div>
@@ -86,10 +86,10 @@ export default function Admissions() {
             </div>
 
             <div className="quick-links">
-              <a className="link" href="#visit">
+              <a className="link" href="/contact">
                 Book a Visit
               </a>
-              <a className="link" href="#policies">
+              <a className="link" href="/admissions/requirements">
                 Policies
               </a>
             </div>
