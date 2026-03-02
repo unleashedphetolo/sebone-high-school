@@ -55,9 +55,9 @@ export default function AllEvents() {
         <table className="scal-table">
           <thead>
             <tr>
+              <th>Event</th>
               <th>Start</th>
               <th>End</th>
-              <th>Event</th>
               <th>Location</th>
               <th>Category</th>
             </tr>
@@ -66,9 +66,9 @@ export default function AllEvents() {
           <tbody>
             {list.map((ev) => (
               <tr key={ev.id}>
+                <td className="td-title">{ev.title}</td>
                 <td className="td-dt">{formatDateTime(ev.start)}</td>
                 <td className="td-dt">{formatDateTime(ev.end)}</td>
-                <td className="td-title">{ev.title}</td>
                 <td className="td-loc">{ev.location}</td>
                 <td>
                   <span className="scal-pill">{ev.category}</span>
