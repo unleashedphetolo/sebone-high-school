@@ -34,6 +34,15 @@ const groups = [
       { name: "Contact us", path: "/contact" },
     ],
   },
+  {
+    title: "Activities",
+    items: [
+      { name: "Academics", path: "/school-life/academics" },
+      { name: "Sports & Recreation", path: "/school-life/sports" },
+      { name: "Culture & Activities", path: "/school-life/culture" },
+      { name: "Campus Facilities", path: "/school-life/facilities" },
+    ],
+  },
 ];
 
 export default function Footer() {
