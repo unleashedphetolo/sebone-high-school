@@ -9,7 +9,7 @@ export default function TermPlan() {
   return (
     <section
       className="container"
-      style={{ paddingTop: 28, paddingBottom: 40 }}
+      style={{ paddingTop: 10, paddingBottom: 40 }}
     >
       <Breadcrumbs />
       <h2 className="section-title">Academic Term Plan</h2>

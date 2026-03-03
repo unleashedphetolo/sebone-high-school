@@ -6,7 +6,7 @@ export default function CodeOfConduct() {
   const pdfFile = "/docs/code-of-conduct.pdf";
 
   return (
-    <section className="container" style={{ paddingTop: 28, paddingBottom: 40 }}>
+    <section className="container" style={{ paddingTop: 10, paddingBottom: 40 }}>
       <Breadcrumbs />
       <h2 className="section-title">Learner Code of Conduct</h2>
 

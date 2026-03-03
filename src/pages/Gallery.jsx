@@ -5,7 +5,7 @@ import Breadcrumbs from "../components/common/Breadcrumbs";
 
 export default function Gallery() {
   return (
-    <div className="container" style={{ paddingTop: 28 }}>
+    <div className="container" style={{ paddingTop: 10 }}>
       <Breadcrumbs />
       <h2 className="section-title">Photo Gallery</h2>
       <PhotoGallery />

@@ -14,7 +14,7 @@ export default function Contact() {
   };
 
   return (
-    <section className="container" style={{ paddingTop: 28, paddingBottom: 40 }}>
+    <section className="container" style={{ paddingTop: 10, paddingBottom: 40 }}>
       <Breadcrumbs />
       <h2 className="section-title">Contact Us</h2>
       <p style={{ opacity: 0.85, maxWidth: 900, marginBottom: 18 }}>

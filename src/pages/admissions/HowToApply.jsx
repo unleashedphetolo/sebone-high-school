@@ -8,7 +8,7 @@ export default function HowToApply() {
   const scrollTop = () => window.scrollTo({ top: 0, behavior: "smooth" });
 
   return (
-    <main className="howtoapply container" style={{ paddingTop: 28, paddingBottom: 40 }}>
+    <main className="howtoapply container" style={{ paddingTop: 10, paddingBottom: 40 }}>
         <Breadcrumbs />
       {/* HERO */}
       <header className="howtoapply-hero">
