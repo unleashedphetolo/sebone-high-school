@@ -67,3 +67,12 @@
     height: 240px;
   }
 }
+
+.gallery-card {
+  cursor: pointer;
+}
+
+.gallery-card:focus {
+  outline: 3px solid rgba(11, 59, 143, 0.6);
+  outline-offset: 2px;
+}
