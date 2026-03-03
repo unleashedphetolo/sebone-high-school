@@ -30,10 +30,10 @@ import VisionMission from "./pages/about/VisionMission";
 import History from "./pages/about/History";
 
 // School Life sub-pages
-import LifeAcademics from "./pages/schoollife/Academics";
-import LifeSports from "./pages/schoollife/Sports";
-import LifeCulture from "./pages/schoollife/Culture";
-import LifeFacilities from "./pages/schoollife/Facilities";
+import LifeAcademics from "./pages/activities/Academics";
+import LifeSports from "./pages/activities/Sports";
+import LifeCulture from "./pages/activities/Culture";
+import LifeFacilities from "./pages/activities/Facilities";
 
 // Resources sub-pages
 import SubjectChoices from "./pages/resources/SubjectChoices";
