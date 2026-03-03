@@ -2,12 +2,14 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "../../styles/howtoapply.css";
 import Button from "../../components/common/Button";
+import Breadcrumbs from "../../components/common/Breadcrumbs";
 
 export default function HowToApply() {
   const scrollTop = () => window.scrollTo({ top: 0, behavior: "smooth" });
 
   return (
     <main className="howtoapply container" style={{ paddingTop: 28, paddingBottom: 40 }}>
+        <Breadcrumbs />
       {/* HERO */}
       <header className="howtoapply-hero">
         <div className="howtoapply-left">

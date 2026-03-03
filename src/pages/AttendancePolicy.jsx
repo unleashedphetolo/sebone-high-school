@@ -1,10 +1,12 @@
 import React from "react";
 import Card from "./../components/common/Card";
 import "../styles/policy.css";
+import Breadcrumbs from "../components/common/Breadcrumbs";
 
 export default function AttendancePolicy() {
   return (
     <main className="policy-page container">
+      <Breadcrumbs />
       <header className="policy-hero">
         <h1 className="policy-title">Attendance Policy</h1>
         <p className="policy-subtitle">

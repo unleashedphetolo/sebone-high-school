@@ -1,6 +1,7 @@
 import React, { useMemo, useState } from "react";
 import "../styles/notices-page.css";
 import { NOTICES } from "../components/home/NoticeBoard";
+import Breadcrumbs from "../components/common/Breadcrumbs";
 
 function fmtDate(iso) {
   if (!iso) return "-";
@@ -37,6 +38,7 @@ export default function Notices() {
 
   return (
     <main className="notices-page container">
+      <Breadcrumbs />
       <header className="np-header">
         <div>
           <h1 className="np-title">School Notices</h1>

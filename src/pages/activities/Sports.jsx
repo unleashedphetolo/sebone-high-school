@@ -1,5 +1,6 @@
 import React from "react";
 import "../../styles/life-sports.css";
+import Breadcrumbs from "../../components/common/Breadcrumbs";
 
 const SPORTS = [
   {
@@ -23,6 +24,7 @@ const SPORTS = [
 export default function LifeSports() {
   return (
     <main className="ls container">
+      <Breadcrumbs />
       {/* Hero */}
       <header className="ls-hero">
         <div className="ls-hero-grid">

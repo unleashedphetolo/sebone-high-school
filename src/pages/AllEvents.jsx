@@ -1,6 +1,7 @@
 import React, { useMemo, useState } from "react";
 import { EVENTS } from "./SchoolCalendar";
 import "../styles/school-calendar.css";
+import Breadcrumbs from "../components/common/Breadcrumbs";
 
 function formatDateTime(iso) {
   const d = new Date(iso);
@@ -33,6 +34,7 @@ export default function AllEvents() {
 
   return (
     <main className="scal-page container">
+      <Breadcrumbs />
       <header className="scal-hero">
         <div>
           <h1 className="scal-title">All Calendar Events</h1>

@@ -2,6 +2,7 @@ import React, { useMemo, useState } from "react";
 // import "../../styles/admissions.css";
 import "../../styles/admissions-form.css";
 import Button from "../../components/common/Button";
+import Breadcrumbs from "../../components/common/Breadcrumbs";
 
 const GRADES = ["Grade 8", "Grade 9", "Grade 10", "Grade 11", "Grade 12"];
 const GENDERS = ["Female", "Male", "Prefer not to say"];
@@ -199,7 +200,8 @@ export default function Apply() {
   };
 
   return (
-    <main className="admissions container" style={{ paddingTop: 28, paddingBottom: 40 }}>
+    <main className="admissions container" style={{ paddingTop: 10, paddingBottom: 40 }}>
+      <Breadcrumbs />
       {/* HERO */}
       <header className="admissions-hero">
         <div className="hero-left">

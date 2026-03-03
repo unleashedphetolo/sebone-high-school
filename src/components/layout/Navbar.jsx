@@ -32,11 +32,11 @@ export default function Navbar() {
         { to: "/facilities", label: "Facilities" },
         { to: "/about/history", label: "Our History" },
       ],
-      life: [
-        { to: "/school-life/academics", label: "Academics" },
-        { to: "/school-life/sports", label: "Sports & Recreation" },
-        { to: "/school-life/culture", label: "Culture & Activities" },
-        { to: "/school-life/facilities", label: "Campus Facilities" },
+      activities: [
+        { to: "/activities/academics", label: "Academics" },
+        { to: "/activities/sports", label: "Sports & Recreation" },
+        { to: "/activities/culture", label: "Culture & Activities" },
+        { to: "/activities/facilities", label: "Campus Facilities" },
       ],
       resources: [
         { to: "/resources/subject-choices", label: "Subject Choices" },
@@ -106,7 +106,7 @@ export default function Navbar() {
             Digital Library
           </Link>
 
-          <Drop id="life" label="Activities" items={menus.life} />
+          <Drop id="activities" label="Activities" items={menus.activities} />
           <Drop id="resources" label="Resources" items={menus.resources} />
           <Drop id="news" label="News" items={menus.news} />
           <Drop id="adm" label="Admissions" items={menus.admissions} />

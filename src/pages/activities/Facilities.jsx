@@ -2,6 +2,7 @@ import React from "react";
 import Card from "../../components/common/Card";
 import Button from "../../components/common/Button";
 import "../../styles/life-facilities.css";
+import Breadcrumbs from "../../components/common/Breadcrumbs";
 
 const ACADEMIC = [
   "Spacious, well-equipped classrooms",
@@ -54,6 +55,7 @@ function FeatureCard({ title, icon, items }) {
 export default function LifeFacilities() {
   return (
     <main className="lf container">
+      <Breadcrumbs />
       {/* Hero */}
       <header className="lf-hero">
         <div className="lf-hero-left">

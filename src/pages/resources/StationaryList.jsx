@@ -1,6 +1,7 @@
 import React, { useMemo, useState } from "react";
 import Card from "../../components/common/Card";
 import "../../styles/stationary.css";
+import Breadcrumbs from "../../components/common/Breadcrumbs";
 
 const STATIONERY = [
   // Grade 8
@@ -38,6 +39,7 @@ export default function StationaryList() {
 
   return (
     <section className="stationary-page container">
+      <Breadcrumbs />
       <header className="stationary-head">
         <div>
           <h2 className="section-title">Stationery Requirements</h2>

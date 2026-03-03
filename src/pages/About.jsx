@@ -3,10 +3,12 @@ import { Link } from "react-router-dom";
 import AboutSection from "../components/home/AboutSection";
 import Card from "../components/common/Card";
 import Button from "../components/common/Button";
+import Breadcrumbs from "../components/common/Breadcrumbs";
 
 export default function AboutLanding() {
   return (
     <div className="container" style={{ paddingTop: 28, paddingBottom: 40 }}>
+      <Breadcrumbs />
       <h2 className="section-title">About M.O.M Sebone Secondary School</h2>
 
       <AboutSection />

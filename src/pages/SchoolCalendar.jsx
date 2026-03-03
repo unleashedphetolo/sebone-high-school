@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "../styles/school-calendar.css";
 import CalendarWidget from "../components/common/CalendarWidget";
+import Breadcrumbs from "../components/common/Breadcrumbs";
 
 export const EVENTS = [
   {
@@ -60,6 +61,7 @@ export default function SchoolCalendar() {
 
   return (
     <main className="scal-page container">
+      <Breadcrumbs />
       <header className="scal-hero">
         <div>
           <h1 className="scal-title">School Calendar</h1>

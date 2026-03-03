@@ -76,12 +76,12 @@ function App() {
           <Route path="/sgb" element={<SGB />} />
           <Route path="/facilities" element={<Facilities />} />
 
-          {/* School Life */}
-          <Route path="/school-life" element={<SchoolLifeLanding />} />
-          <Route path="/school-life/academics" element={<LifeAcademics />} />
-          <Route path="/school-life/sports" element={<LifeSports />} />
-          <Route path="/school-life/culture" element={<LifeCulture />} />
-          <Route path="/school-life/facilities" element={<LifeFacilities />} />
+          {/* Activities */}
+          <Route path="/activities" element={<SchoolLifeLanding />} />
+          <Route path="/activities/academics" element={<LifeAcademics />} />
+          <Route path="/activities/sports" element={<LifeSports />} />
+          <Route path="/activities/culture" element={<LifeCulture />} />
+          <Route path="/activities/facilities" element={<LifeFacilities />} />
 
           {/* Resources */}
           <Route

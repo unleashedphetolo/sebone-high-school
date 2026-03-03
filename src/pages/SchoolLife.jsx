@@ -1,10 +1,12 @@
 import React from "react";
 import Card from "../components/common/Card";
 import Button from "../components/common/Button";
+import Breadcrumbs from "../components/common/Breadcrumbs";
 
 export default function SchoolLifeLanding() {
   return (
     <section className="container" style={{ paddingTop: 28, paddingBottom: 40 }}>
+      <Breadcrumbs />
       <h2 className="section-title">School Life</h2>
       <p style={{ opacity: 0.85, maxWidth: 900, marginBottom: 18 }}>
         School life at Sebone builds confident learners through academics, sport, culture and a safe campus environment.

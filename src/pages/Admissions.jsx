@@ -2,10 +2,12 @@
 import React from "react";
 import "../styles/admissions.css";
 import SchoolStats from "../components/home/SchoolStats";
+import Breadcrumbs from "../components/common/Breadcrumbs";
 
 export default function Admissions() {
   return (
     <main className="admissions container">
+      <Breadcrumbs />
       <header className="admissions-hero">
         <div className="hero-left">
           <h1 className="hero-title">Admission</h1>

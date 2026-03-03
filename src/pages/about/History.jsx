@@ -1,6 +1,7 @@
 import React from "react";
 import Card from "../../components/common/Card";
 import "../../styles/history.css";
+import Breadcrumbs from "../../components/common/Breadcrumbs";
 
 const HIGHLIGHTS = [
   {
@@ -76,6 +77,7 @@ const GALLERY = [
 export default function History() {
   return (
     <main className="history-page container">
+      <Breadcrumbs />
       {/* HERO */}
       <header className="history-hero">
         <div className="history-hero-left">

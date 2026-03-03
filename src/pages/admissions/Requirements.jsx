@@ -2,10 +2,12 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "../../styles/requirements.css";
 import Card from "../../components/common/Card";
+import Breadcrumbs from "../../components/common/Breadcrumbs";
 
 export default function Requirements() {
   return (
     <main className="container requirements-page">
+      <Breadcrumbs />
       <h2 className="section-title">Entry Requirements</h2>
 
       <Card>

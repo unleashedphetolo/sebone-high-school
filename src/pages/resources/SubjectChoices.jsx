@@ -1,6 +1,7 @@
 import React from "react";
 import Card from "../../components/common/Card";
 import "../../styles/subject-choices.css";
+import Breadcrumbs from "../../components/common/Breadcrumbs";
 
 const GRADE_8_9_CORE = [
   "Home Language",
@@ -69,6 +70,7 @@ const ELECTIVES = [
 export default function SubjectChoices() {
   return (
     <main className="subject-choices-page container">
+      <Breadcrumbs />
       <header className="sc-hero">
         <h1 className="sc-title">Subject Choices</h1>
         <p className="sc-subtitle">

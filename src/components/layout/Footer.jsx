@@ -37,10 +37,10 @@ const groups = [
   {
     title: "Activities",
     items: [
-      { name: "Academics", path: "/school-life/academics" },
-      { name: "Sports & Recreation", path: "/school-life/sports" },
-      { name: "Culture & Activities", path: "/school-life/culture" },
-      { name: "Campus Facilities", path: "/school-life/facilities" },
+      { name: "Academics", path: "/activities/academics" },
+      { name: "Sports & Recreation", path: "/activities/sports" },
+      { name: "Culture & Activities", path: "/activities/culture" },
+      { name: "Campus Facilities", path: "/activities/facilities" },
     ],
   },
 ];
