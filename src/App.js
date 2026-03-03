@@ -16,6 +16,8 @@ import AboutLanding from "./pages/About";
 import AdmissionsLanding from "./pages/Admissions";
 import SchoolLifeLanding from "./pages/SchoolLife";
 import DigitalLibrary from "./pages/DigitalLibrary";
+import ResourcesLanding from "./pages/ResourcesLanding";
+
 // import Events from "./pages/Events";
 import News from "./pages/News";
 import Gallery from "./pages/Gallery";
@@ -84,6 +86,7 @@ function App() {
           <Route path="/activities/facilities" element={<LifeFacilities />} />
 
           {/* Resources */}
+          <Route path="/resources" element={<ResourcesLanding />} />
           <Route
             path="/resources/subject-choices"
             element={<SubjectChoices />}
