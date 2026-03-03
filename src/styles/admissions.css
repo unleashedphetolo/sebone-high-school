@@ -13,7 +13,7 @@
 }
 
 .admissions.container{
-  padding: 28px 36px;
+  padding: 10px 36px;
   background: linear-gradient(180deg, var(--bg), #fff);
   font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
 }
