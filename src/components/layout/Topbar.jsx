@@ -154,8 +154,8 @@ export default function Topbar() {
             </a>
           </div>
 
-          <div className="auth-links">
-            <a href="/admissions/apply">Apply</a>
+          <div className="auth-links" style={{fontSize:"12px",display:" flex"}}>
+            <a href="/admissions/apply">Apply Now</a>
           </div>
         </div>
       </div>
