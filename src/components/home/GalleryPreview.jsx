@@ -6,9 +6,9 @@ export default function Gallery() {
   const navigate = useNavigate();
 
   const items = [
-    { id: 1, title: "ACADEMICS", img: "/images/gallery1.jpg", link: "/school-life/academics" },
-    { id: 2, title: "CULTURE", img: "/images/gallery2.avif", link: "/school-life/culture" },
-    { id: 3, title: "SPORTS", img: "/images/gallery4.jpg", link: "/school-life/sports" },
+    { id: 1, title: "ACADEMICS", img: "/images/gallery1.jpg", link: "/activities/academics" },
+    { id: 2, title: "CULTURE", img: "/images/gallery2.avif", link: "/activities/culture" },
+    { id: 3, title: "SPORTS", img: "/images/gallery4.jpg", link: "/activities/sports" },
     { id: 4, title: "STAFF", img: "/images/teachers.jpeg", link: "/staff" },
   ];
 
