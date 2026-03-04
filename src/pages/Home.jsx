@@ -8,6 +8,7 @@ import PrincipalMessage from "../components/home/PrincipalMessage";
 import Admissions from "./Admissions";
 import WallOfFame from "../components/home/WallOfFame";
 import SchoolCalendar from "./SchoolCalendar";
+import Sponsors from "../components/home/Sponsors";
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
       <Admissions />
       <SchoolCalendar />
       <WallOfFame />
+      <Sponsors />
     </>
   );
 }
