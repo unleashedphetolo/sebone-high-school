@@ -18,9 +18,9 @@ const groups = [
   {
     title: "Staff",
     items: [
-      { name: "Staff Portal", path: "/staff" },
-      { name: "Term dates", path: "/resources/term-plan" },
+      { name: "Staff Members", path: "/staff" },
       { name: "SGB", path: "/sgb" },
+      { name: "Term dates", path: "/resources/term-plan" },
       { name: "Attendance Policy", path: "/attendance" },
     ],
   },
