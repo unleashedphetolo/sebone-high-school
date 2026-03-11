@@ -189,3 +189,7 @@
     max-height: 210px;
   }
 }
+
+.notice-scroll:hover {
+  overflow-y: auto;
+}
